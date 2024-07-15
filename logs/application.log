@@ -32,3 +32,15 @@
 2024-07-14 18:47:13 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
 2024-07-14 18:47:13 [http-nio-8080-exec-1] INFO  c.e.s.c.HelloWorldController - This is a sample Spring Boot Hello World Application
 2024-07-14 18:47:13 [http-nio-8080-exec-1] INFO  c.e.s.c.HelloWorldController - A cron job is scheduled to rotate log files regularly
+2024-07-14 21:31:05 [main] INFO  c.e.s.SpringHelloLog4jApplication - Starting SpringHelloLog4jApplication using Java 17.0.6 with PID 15020 (C:\Users\krith\Downloads\Spring-Hello-Log4j\target\classes started by krith in C:\Users\krith\Downloads\Spring-Hello-Log4j)
+2024-07-14 21:31:05 [main] DEBUG c.e.s.SpringHelloLog4jApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-14 21:31:05 [main] INFO  c.e.s.SpringHelloLog4jApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-14 21:31:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-14 21:31:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-14 21:31:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-14 21:31:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-14 21:31:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-14 21:31:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 894 ms
+2024-07-14 21:31:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-14 21:31:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-14 21:31:06 [main] INFO  c.e.s.SpringHelloLog4jApplication - Started SpringHelloLog4jApplication in 2.297 seconds (process running for 3.273)
