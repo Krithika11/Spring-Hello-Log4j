@@ -12,5 +12,5 @@ find "$LOG_DIR" -type f -name "*.log" -mtime +1 -exec gzip {} \;
 # Move compressed logs to the archive directory
 find "$LOG_DIR" -type f -name "*.log.gz" -exec mv {} "$ARCHIVE_DIR" \;
 
-# Optionally, remove old archive logs (e.g., older than 30 days)
-find "$ARCHIVE_DIR" -type f -name "*.log.gz" -mtime +30 -exec rm {} \;
+# Optionally, remove old archive logs (e.g., older than 3 days)
+find "$ARCHIVE_DIR" -type f -name "*.log.gz" -mtime +3 -exec rm {} \;
